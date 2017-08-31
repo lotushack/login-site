@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Login</title>
+  </head>
+  <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+    </div>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="/signup"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+    </ul>
+  </div>
+</nav>
+  <body>
+    <h1>Welcome!!! You are here because you won the grand prize of $1,000,000!!!</h1>
+    <h2>Please log in:</h2>
+    <form class="login" action="/welcome" method="post">
+      <label for="loggingin"></label>
+      <input type="text" name="username" value="" placeholder="Username">
+      <input type="password" name="password" value="" placeholder="Password">
+      <input type="submit">
+    </form>
+  </body>
+</html>
